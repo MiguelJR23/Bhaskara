@@ -1,0 +1,17 @@
+package com.mycompany.bhaskara;
+import java.util.Scanner;
+
+public class Bhaskara {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Calculadora para Bhaskara");
+        System.out.print("Digite o numero de valor A:");
+        double a = scanner.nextDouble();
+        System.out.print("Digite o numero de valor B:");
+        double b = scanner.nextDouble();
+        System.out.print("Digite o numero do valor C:");
+        double c = scanner.nextDouble();
+       
+        
+    }
+}
